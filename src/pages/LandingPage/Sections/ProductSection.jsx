@@ -20,13 +20,9 @@ class ProductSection extends React.Component {
       <div className={classes.section}>
         <GridContainer justify="center">
           <GridItem xs={12} sm={12} md={8}>
-            <h2 className={classes.title}>Let's talk product</h2>
+            <h2 className={classes.title}>Let's distract you from the dying planet with these wonderful baubles! </h2>
             <h5 className={classes.description}>
-              This is the paragraph where you can write more details about your
-              product. Keep you user engaged by providing meaningful
-              information. Remember that by this time, the user is curious,
-              otherwise he wouldn't scroll to get here. Add a button if you want
-              the user to see more.
+              This is the paragraph where you can write more details about whatever you want
             </h5>
           </GridItem>
         </GridContainer>
@@ -35,7 +31,7 @@ class ProductSection extends React.Component {
             <GridItem xs={12} sm={12} md={4}>
               <InfoArea
                 title="Free Chat"
-                description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
+                description="When we say free chat, boy do we mean it! It may be just 999 a month but you can feel free to talk in your private chatroom for as long as the void can stomach listening!"
                 icon={Chat}
                 iconColor="info"
                 vertical
@@ -44,7 +40,7 @@ class ProductSection extends React.Component {
             <GridItem xs={12} sm={12} md={4}>
               <InfoArea
                 title="Verified Users"
-                description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
+                description="Here at Actually Malware, we require all our users to be verfied. We provide mothers to validate you if you don't have your own"
                 icon={VerifiedUser}
                 iconColor="success"
                 vertical
@@ -53,7 +49,7 @@ class ProductSection extends React.Component {
             <GridItem xs={12} sm={12} md={4}>
               <InfoArea
                 title="Fingerprint"
-                description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
+                description="Protect your fingerprints by enrolling in our nub club! They can't track you if you have no fingertips!"
                 icon={Fingerprint}
                 iconColor="danger"
                 vertical
